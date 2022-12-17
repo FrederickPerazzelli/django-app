@@ -1,0 +1,18 @@
+{% include 'firstApp/header.html' %}
+
+<form class="form" action="{% url 'firstApp:vote' question.id %}" method="post">
+    {% csrf_token %}
+    <fieldset>
+        <h1 class="legend">{{ question.question_text }}</h1>
+        {% if error_message %}<p class="error-message"><strong>{{ error_message }}</strong></p>{% endif %}
+        {% for choice in question.choice_set.all %}
+            <div class="choice">
+                <input type="radio" name="choice" id="choice{{ forloop.counter }}" value="{{ choice.id }}">
+                <label class="test" for="choice{{ forloop.counter }}">{{ choice.choice_text }}</label><br>
+            </div>
+        {% endfor %}
+    </fieldset>
+    <input class="btn btn-soumettre" type="submit" value="Soumettre">
+</form>
+
+{% include 'firstApp/footer.html' %}

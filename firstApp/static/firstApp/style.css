@@ -1,0 +1,197 @@
+*{
+    background-color: lightgray;
+    margin: auto;
+    font-family: 'Trebuchet MS';
+}
+
+body{
+    background-color: white;
+    width: 80%;
+    margin: auto;
+}
+
+li a {
+    color: green;
+}
+
+.header-large{
+    width: 100%;
+    background-color: #f5fafd;
+}
+
+.large-banner{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.footer-large{
+    position:absolute;
+    bottom:0;
+    width: 80%;
+    height: 100px;
+    background-color: #baddf5;
+}
+
+.white-text{
+    margin-top: 2%;
+    text-align: center;
+    background-color:#baddf5;
+    color: black;
+}
+
+.center-h1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+    background-color: #868686;
+    color: white;
+}
+
+.large-header{
+    width:100%;
+    background-color: white;
+}
+
+.container-sondage{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: start;
+    background-color: whitesmoke;
+    height: 60%;
+}
+
+.tile-sondage{
+    display: block;
+    background-color: whitesmoke;
+    width: 100%;
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.question{
+    display: block;
+    margin-bottom: 1%;
+    font-size: larger;
+    background-color: whitesmoke;
+    text-decoration: none;
+    color: black;
+    padding-left: 2%;
+}
+
+.question:hover {
+    background-color: #ccc;
+}
+
+.form{
+    padding-top: 2%;
+    width: 80%;
+    height: 60%;
+    background-color: white;
+}
+
+.form fieldset{
+    background-color: whitesmoke;
+    width: 80%;
+    height: 60%;
+    padding: 0;
+}
+
+.choice{
+    background-color: whitesmoke;
+    padding-left: 2%;
+    margin-top: 2%;
+    font-size: large;
+}
+
+.choice label{
+    background-color: whitesmoke;
+}
+
+.legend{
+    width: 100%;
+    background-color: #868686;
+    color: white;
+}
+
+
+.btn{
+    align-content: flex-end;
+    margin-top: 2%;
+    margin-right: 10%;
+    width: 10%;
+    cursor:pointer;
+    border: black 1px solid;
+    border-radius: 10px;
+}
+
+.btn-soumettre{
+    background-color: #555555;
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    font-weight: bold; 
+    width: 10%;
+    text-align: center;
+    height: 7%;
+    color: white;
+}
+
+.btn-details{
+    background-color: #555555;
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    font-weight: bold; 
+    width: 20%;
+    text-align: center;
+    padding-top: 1%;
+    height: 7%;
+    color: white;
+}
+
+.btn-question{
+    background-color: #443355;
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    font-weight: bold; 
+    width: 20%;
+    text-align: center;
+    padding-top: 1%;
+    height: 7%;
+    color: white;
+}
+
+.error-message{
+    background-color: whitesmoke;
+    text-align: center;
+    color: red;
+}
+
+.error-message strong{
+    background-color: whitesmoke;
+}
+
+.btn-admin{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    text-decoration: none;
+    background-color: #baddf5;
+    text-align: center;
+    color: black;
+}
+
+.btn-admin:hover {
+    background-color: #ccc;
+}
